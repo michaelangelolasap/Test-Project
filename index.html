@@ -85,6 +85,43 @@
 		<script src="./js/storage.js"></script>
 		<script src="./js/script.js"></script>
 		<script src="./js/main.js"></script>
+		<!-- <script src="./js/pong.js"></script> -->
+
+		<head>
+
+			<meta charset="UTF-8">
+
+			<title>Pong Game JavaScript</title>
+
+			<style>
+
+				body{
+
+					background-color: dimgray;
+
+				}
+
+				#pong{
+
+					border: 2px solid #FFF;
+
+					position: absolute;
+
+					margin :auto;
+
+					top:0;
+
+					right:0;
+
+					left:0;
+
+					bottom:0;
+
+				}
+
+			</style>
+
+		</head>
 
 	</head>
 
@@ -98,14 +135,22 @@
 			</div>
 		</noscript>
 
+	
+
 		<div id="monogatari">
 			<visual-novel>
 				<language-selection-screen></language-selection-screen>
+				<head>
+						<canvas id="pong" width="600" height="400"></canvas>
+
+						<script src="js/pong.js"></script>
+				</head>
 				<loading-screen></loading-screen>
 				<main-screen>
 					<main-menu></main-menu>
 				</main-screen>
 				<game-screen>
+					
 					<dialog-log></dialog-log>
 					<text-box></text-box>
 					<quick-menu></quick-menu>
@@ -118,6 +163,10 @@
 				<help-screen></help-screen>
 			</visual-novel>
 		</div>
+
+		
+
+
 	</body>
 
 </html>

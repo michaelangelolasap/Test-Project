@@ -88,7 +88,7 @@ monogatari.script ({
 		'show notification Welcome',
 		{
 			'Input': {
-				'Text': 'Ano ang iyong pangalan?',
+				'Text': 'Anya tinagan mo?',
 				'Validation': function (input) {
 					return input.trim ().length > 0;
 				},

@@ -113,7 +113,7 @@ monogatari.script ({
 		'y Hi {{player.name}} Welcome to Monogatari!',
 		{
 			'Choice': {
-				'Dialog': 'y Have you already read some documentation?',
+				'Dialog': 'y do you want to play  a game?',
 				'Yes': {
 					'Text': 'Yes',
 					'Do': 'jump Yes'
@@ -121,16 +121,18 @@ monogatari.script ({
 				'No': {
 					'Text': 'No',
 					'Do': 'jump No'
+					// <a href="pong.html" target="_blank" style="color: aqua;">https://www.w3schools.com/python/default.asp</a>'
 				}
 			}
 		}
 	],
 
 	'Yes': [
-		'y Thats awesome!',
-		'y Then you are ready to go ahead and create an amazing Game!',
-		'y I can’t wait to see what story you’ll tell!',
-		'end'
+		'<A HREF="js/pong.html">game</A>'
+		// 'y Thats awesome!',
+		// 'y Then you are ready to go ahead and create an amazing Game!',
+		// 'y I can’t wait to see what story you’ll tell!',
+		// 'end'
 	],
 
 	'No': [
